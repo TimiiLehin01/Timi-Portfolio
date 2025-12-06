@@ -101,13 +101,15 @@ export default function About() {
               ))}
             </div>
 
-            <motion.button
+            <motion.a
+              href="/resume.pdf/Adebusoye_Timilehin_Resume.pdf"
+              download="Adebusoye_Timilehin_Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="mt-6 sm:mt-8 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base bg-gradient-to-r from-blue-500 to-purple-500 rounded-full font-semibold flex items-center gap-2 hover:shadow-lg hover:shadow-purple-500/50 transition-shadow"
+              className="mt-6 sm:mt-8 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base bg-gradient-to-r from-blue-500 to-purple-500 rounded-full font-semibold inline-flex items-center gap-2 hover:shadow-lg hover:shadow-purple-500/50 transition-shadow"
             >
               Download Resume <ArrowRight size={18} className="sm:w-5 sm:h-5" />
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </div>
