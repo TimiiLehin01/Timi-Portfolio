@@ -20,15 +20,25 @@ export const projects = [
     codeLink: "https://github.com/TimiiLehin01/Reinsurance-Explained",
   },
   {
-    title: "Social Media App",
+    title: "Raiku Showcase",
     description:
-      "Real-time social platform with messaging, posts, and user interactions",
-    tech: ["React Native", "Firebase", "Redux", "WebSocket"],
+      "An interactive visualizer on what Raiku(a blockchain infrastructure project focused on enhancing Solana) is all about",
+    tech: ["React", "Framer Motion", "Tailwind CSS", "Lucide React"],
     gradient: "from-orange-500 to-red-500",
-    image: "💬",
-    liveLink: "https://example.com",
-    codeLink: "https://github.com/yourusername/project",
+    videoPreview: "/videos/raikushowcase.mp4",
+    liveLink: "https://raiku-showcase.vercel.app/",
+    codeLink: "https://github.com/TimiiLehin01/Raiku-Showcase",
   },
+  // {
+  //   title: "Social Media App",
+  //   description:
+  //     "Real-time social platform with messaging, posts, and user interactions",
+  //   tech: ["React Native", "Firebase", "Redux", "WebSocket"],
+  //   gradient: "from-orange-500 to-red-500",
+  //   image: "💬",
+  //   liveLink: "https://example.com",
+  //   codeLink: "https://github.com/yourusername/project",
+  // },
 ];
 
 export const skills = [
@@ -45,7 +55,7 @@ export const personalInfo = {
   tagline:
     "Full-Stack Developer specializing in building exceptional digital experiences with modern technologies",
   yearsExperience: "3+",
-  projectsCompleted: "10+",
+  projectsCompleted: "20+",
   email: "adebusoyetimilehin@gmail.com",
   whatsapp: "2348103478391",
   github: "https://github.com/TimiiLehin01",
